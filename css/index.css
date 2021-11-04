@@ -135,6 +135,10 @@ nav {
     filter: invert(-1);
     display: none;
 }
+.ham-icon1{
+    width: 0px;
+    height: 0px;
+}
 
 /* Sign in form */
 
