@@ -308,7 +308,7 @@ main {
     flex-direction: column;
 }
 .courseCard{
-    height: 70vh;
+    height: 75vh;
     width: 90%;
     border: 2px solid white;
     margin-top: 2vh;
@@ -326,7 +326,7 @@ main {
 }
 .crCards{
     width: 90%;
-    height:58vh ;
+    height:62vh ;
     /* border: 2px solid white; */
     margin: 20px auto;
     display: flex;
