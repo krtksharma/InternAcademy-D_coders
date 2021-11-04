@@ -1,0 +1,10 @@
+@media(max-width:840px){
+    .nav{
+        /* visibility: hidden; */
+        display: none;
+    }
+    .nav1{
+        visibility: visible;
+    }
+    
+}

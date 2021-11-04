@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning App</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/resp.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="left">
+                <!-- <img src="" alt=""> -->
+                <h1>Logo</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="#course">Courses</a></li>
+                    <li><a href="">Live Batches</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <div class="login">
+                        <button class="login1" id="myBtn">Sign in</button>
+                    </div>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="nav1" id="nav1">
+            <div class="left1">
+                <!-- <img src="" alt=""> -->
+                <h1>Logo</h1>
+            </div>
+            <div class="right1" id="right">
+                <ul>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Live Batches</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <div class="login1">
+                        <button class="login1" id="myBtn1">Sign in</button>
+                    </div>
+                </ul>
+            </div>
+            <button class="ham-icon1" onclick="visible()"><img src="./images/ham.png" class="ham"></button>
+            <button class="ham-icon1" onclick="visible1()"><img src="./images/cross.png" class="ham1"></button>
+
+
+
+
+        </div>
+
+    </nav>
+
+    <!-- nav ends here -->
+    <!-- main section starts from here -->
+    <main>
+        <div class="home">
+            <div class="h1">
+                <div class="h1cnt">
+                    <h1>Still Confused ?</h1>
+                    <h2>From where To start learning</h2>
+                    <button class="join" id="myBtn2">Join Us</button>
+
+                </div>
+            </div>
+            <div class="h2">
+                <img src="./images/master.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="bestCourse" id="course">
+            <div class="courseCard">
+                <h2>Trending Course</h2>
+
+                <div class="crCards">
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="courseCard">
+                <h2>Top Picks for You</h2>
+
+                <div class="crCards">
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                    <div class="cards">
+                        <img class="crImg" src="./images/Course.png" alt="">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- best course ends here  -->
+
+
+        <div class="about">
+            <div class="a1">
+                <h1>Why join us?</h1>
+                <div class="points">
+                    <ul>
+                        <li><img class="hand" src="./images/decree.png">We believe In free Learning.</li>
+                        <li><img class="hand" src="./images/decree.png">You will get all good resource at one place.
+                        </li>
+                        <li><img class="hand" src="./images/decree.png">We will have guest Lecture once in two week.
+                        </li>
+                        <li><img class="hand" src="./images/decree.png">You will get free resources in Pdf form.</li>
+                        <li><img class="hand" src="./images/decree.png">You can ask your queries through our Chatbot.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="a2">
+                <img src="./images/join.png" alt="">
+            </div>
+        </div>
+
+    </main>
+    <!-- footer begins here  -->
+    <footer>
+        <div class="links">
+            <h2>Connect with Us</h2>
+            <div class="link1">
+                <a href=""><img src="./images/facebook.png" alt=""></a>
+                <a href=""><img src="./images/instagram.png" alt=""></a>
+                <a href=""><img src="./images/github.png" alt=""></a>
+                <a href=""><img src="./images/linkedin.png" alt=""></a>
+            </div>
+        </div>
+
+        <h3>Created by team D_coders during the internship period of The Intern Academy</h3>
+
+    </footer>
+
+
+    <!-- Sign In Form  -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="form">
+                <form action="">
+                    <div class="feild">
+                        <label for="uname">Enter Your Username</label>
+                        <input type="text" id="uname">
+                    </div>
+                    <div class="feild">
+                        <label for="pass">Enter Your Password</label>
+                        <input type="text" id="pass">
+                    </div>
+                    <div class="feild">
+                        <button>Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div> 
+    <!-- Sign up Form  -->
+    <div id="myModal1" class="modal">
+        <div class="modal-content">
+            <span class="close1">&times;</span>
+            <div class="form">
+                <form action="">
+                    <div class="feild">
+                        <label for="uname1">Enter Your Name</label>
+                        <input type="text" id="uname1">
+                    </div>
+                    <div class="feild">
+                        <label for="email">Enter Your Email Id</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="feild">
+                        <label for="pass1">Create Password</label>
+                        <input type="text" id="pass1">
+                    </div>
+                    <div class="feild">
+                        <button>Sign Up</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- chatbot starts here  -->
+    <div class="chat_icon">
+        <!-- <i class="fas fa-comments"></i> -->
+        <img src="./images/chatbot.png" alt="" style="filter: invert(1);">
+    </div>
+    <div class="chatbox">
+        <div>
+            <p class="chatbox1"><marquee><b>- - Need Our Help- -</b></marquee></p>
+        </div>
+        <div class="box">
+          <p id="chatLog"  > <br> </p>
+
+        </div>
+
+        <input id="userBox"  type="text" class="chat" placeholder="Start with hello"
+        onkeydown="if(event.keyCode == 13) {talk()}">
+
+
+        <form class="medForm" id="medForm">
+            <input class="input" type="text" placeholder="Enter Your name" id="">
+            <input class="input" type="Email" placeholder="Enter Your Email" id="">
+            <input class="input" type="tel" placeholder="Enter Your Contact No." id="">
+            <textarea class="input" name="" id="" placeholder="Share your concern With us" ></textarea>
+            <button> Submit</button>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous ">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js "
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns " crossorigin="anonymous ">
+    </script>
+<script src="./javascript/index.js"></script>
+<script src="./javascript/custom.js"></script>
+<script src="./javascript/javascript.js"></script>
+<!-- <script src="./javascript/jquery-3.1.1.min.js"></script> -->
+
+</html>
