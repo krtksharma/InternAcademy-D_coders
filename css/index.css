@@ -329,7 +329,7 @@ main {
     border-radius: 20px 0px 0px 0px; 
 }
 .crCards{
-    width: 90%;
+    width: 92%;
     height:62vh ;
     /* border: 2px solid white; */
     margin: 20px auto;
@@ -339,19 +339,20 @@ main {
     
 }
 .crCards::-webkit-scrollbar{
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 .cards{
-    height: 350px;
-    width: 280px;
+    height: 320px;
+    width: 300px;
     border: 2px solid white;
     margin: 0px 20px;
     border-radius: 20px;
     background-color: white;
 }
 .crImg{
-    width: 280px;
-    height: 170px;
+    width: 220px;
+    height: 210px;
+    
     border-radius: 20px 20px 0px 0px;
     border-bottom: 4px solid black;
 }
